@@ -1,0 +1,4 @@
+
+<view class="ohlcKline">
+  <canvas canvas-id="kLine" disable-scroll="true" bindtouchmove="touchMove" bindtouchstart="touchStart" bindtouchend="touchEnd" style="width: {{canvasWidth}}px; height: 180px;"/>
+</view>

@@ -1,0 +1,43 @@
+
+.curCell {
+    height:100rpx;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1rpx solid lightgray;
+    box-sizing: border-box;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+}
+
+.curCellHeader {
+    height:50%;
+    width:12%;
+}
+
+.curCellFooter {
+    height:50%;
+    width:40%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+.curCellHeader image {
+    height:100%;
+    width:100%;
+}
+
+.curCellBody text {
+    height:100%;
+    width:100%;
+    font-family: 'DINNeuzeitGrotesk LT' !important;
+}
+
+.curCellFooter text {
+    height:100%;
+    width:100%;
+    font-family: 'DINNeuzeitGrotesk LT' !important;
+}

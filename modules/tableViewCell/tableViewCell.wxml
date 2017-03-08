@@ -1,0 +1,14 @@
+
+<template name="tableViewCell">
+  <view class="curCell" style="background:{{cellBackgroundColor}}">
+    <view class="curCellHeader">
+      <image src="{{curIcon}}"></image>
+    </view>
+    <view class="curCellBody">
+      <text>{{curName}}</text>
+    </view>
+    <view class="curCellFooter">
+      <text>{{curEquiv}}</text>
+    </view>
+  </view>
+</template>

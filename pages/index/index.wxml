@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<import src="../../modules/tableViewCell/tableViewCell.wxml" />
+<view class="container">
+  <view class="amountInput">
+    <view class="curCellHeader">
+      <image src="../../image/cnh.png"></image>
+    </view>
+    <view class="curCellBody">
+      <text>CNH</text>
+    </view>
+    <view class="curCellFooter">
+      <input type="digit" bindinput="getAmount" placeholder="请输入金额" placeholder-class="amtInputPH"/>
+    </view>
+  </view>
+  <scroll-view class="curScrollView" scroll-y="true">
+    <view wx:for="{{curInit}}">
+      <template is="tableViewCell" data="{{...item}}" />
+    </view>
+  </scroll-view>
+  <button bindtap="bindViewTap">click me</button>
+</view>
